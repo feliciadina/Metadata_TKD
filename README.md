@@ -1,4 +1,4 @@
-# README
+# Metadata TKD_Kelompok 8
 
 ## Dataset: `Financial Data (Standard & Poor’s 500) companies.csv`
 
@@ -7,3 +7,28 @@ File `Financial Data (Standard & Poor’s 500) companies.csv` menyediakan data k
 
 ### Struktur Dataset
 Berikut adalah deskripsi kolom yang tersedia dalam dataset:
+| Nama Kolom                                | Tipe Data | Deskripsi                                                       |
+|-------------------------------------------|-----------|-----------------------------------------------------------------|
+| `No`                                      | int64     | Nomor urut atau ID unik untuk setiap baris data.                |
+| `date`                                    | object    | Tanggal terkait data (dapat dikonversi ke tipe `datetime`).     |
+| `firm`                                    | object    | Nama perusahaan.                                                |
+| `Ticker`                                  | object    | Kode ticker perusahaan di bursa saham.                          |
+| `Research Development`                    | float64   | Biaya riset dan pengembangan perusahaan.                        |
+| `Income Before Tax`                       | float64   | Pendapatan sebelum pajak.                                       |
+| `Net Income`                              | float64   | Pendapatan bersih setelah pajak.                                |
+| `Selling General Administrative`          | float64   | Biaya penjualan, umum, dan administrasi.                        |
+| `Gross Profit`                            | float64   | Laba kotor perusahaan.                                          |
+| `Ebit`                                    | float64   | Earnings Before Interest and Taxes (EBIT).                      |
+| `Operating Income`                        | float64   | Pendapatan operasional.                                         |
+| `Interest Expense`                        | float64   | Beban bunga perusahaan.                                         |
+| `Income Tax Expense`                      | float64   | Beban pajak penghasilan.                                        |
+| `Total Revenue`                           | float64   | Total pendapatan perusahaan.                                    |
+| `Total Operating Expenses`                | float64   | Total biaya operasional.                                        |
+| `Cost Of Revenue`                         | float64   | Biaya yang terkait dengan pendapatan.                           |
+| `Total Other Income Expense Net`          | float64   | Total pendapatan atau beban lain di luar operasional.           |
+| `Net Income From Continuing Ops`          | float64   | Pendapatan bersih dari operasi yang berlanjut.                  |
+| `Net Income Applicable To Common Shares`  | float64   | Pendapatan bersih yang berlaku untuk saham biasa.               |
+
+
+### Cara Penggunaan
+dll blm selesai
