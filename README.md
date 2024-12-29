@@ -39,13 +39,15 @@ Berikut adalah deskripsi kolom yang tersedia dalam dataset:
       
 2. **Cek Tipe Data**:
    Periksa tipe data setiap kolom untuk memastikan konsistensi:
+   ```python
    print(data.dtypes)
    
-3. **Cek Missing Values**:
+4. **Cek Missing Values**:
    Identifikasi nilai yang hilang;
+   ```python
    print(data.isnull().sum())
    
-4. **Handling Missing Values**:
+6. **Handling Missing Values**:
    Tangani nilai yang hilang menggunakan rata-rata dari kolom yang terdapat Null.
 
 ### Data Lineage
