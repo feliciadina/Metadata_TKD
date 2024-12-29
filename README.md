@@ -31,4 +31,32 @@ Berikut adalah deskripsi kolom yang tersedia dalam dataset:
 
 
 ### Cara Penggunaan
-dll blm selesai
+1. **Membuka Dataset**:
+   Gunakan library seperti pandas di Python untuk membuka dan memproses dataset:
+      ```python
+   import pandas as pd
+   data = pd.read_csv("Financial Data (Standard & Poor’s 500) companies.csv")
+      
+2. **Cek Tipe Data**:
+   Periksa tipe data setiap kolom untuk memastikan konsistensi:
+   print(data.dtypes)
+   
+3. **Cek Missing Values**:
+   Identifikasi nilai yang hilang;
+   print(data.isnull().sum())
+   
+4. **Handling Missing Values**:
+   Tangani nilai yang hilang menggunakan rata-rata dari kolom yang terdapat Null.
+
+### Data Lineage
+ini ga fix sih coba2
+1. **Sumber Data**: File mentah `raw_data.csv` diperoleh dari [lokasi/sumber data].
+2. **Transformasi Data**:
+   - Nilai kosong diisi dengan rata-rata kolom.
+   - Kolom `date` dikonversi menjadi tipe datetime.
+   - Data duplikat dihapus.
+3. **Pencatatan Otomatis**:
+   - Data lineage dicatat menggunakan [OpenLineage](https://openlineage.io/).
+   - Metadata alur transformasi dikirim ke endpoint OpenLineage untuk dokumentasi otomatis.
+
+### Lisensi
