@@ -9,8 +9,8 @@ File `Financial Data (Standard & Poor’s 500) companies.csv` menyediakan data k
 Berikut adalah deskripsi kolom yang tersedia dalam dataset:
 | Nama Kolom                                | Tipe Data | Deskripsi                                                       |
 |-------------------------------------------|-----------|-----------------------------------------------------------------|
-| `No`                                      | int64     | Nomor urut atau ID unik untuk setiap baris data.                |
-| `date`                                    | object    | Tanggal terkait data (dapat dikonversi ke tipe `datetime`).     |
+| `No`                                      | int64     | Nomor urut untuk setiap baris data.                             |
+| `date`                                    | object    | Tanggal terkait data.                                           |
 | `firm`                                    | object    | Nama perusahaan.                                                |
 | `Ticker`                                  | object    | Kode ticker perusahaan di bursa saham.                          |
 | `Research Development`                    | float64   | Biaya riset dan pengembangan perusahaan.                        |
