@@ -51,14 +51,6 @@ Berikut adalah deskripsi kolom yang tersedia dalam dataset:
    Tangani nilai yang hilang menggunakan rata-rata dari kolom yang terdapat Null.
 
 ### Data Lineage
-ini ga fix sih coba2
-1. **Sumber Data**: File mentah `raw_data.csv` diperoleh dari [lokasi/sumber data].
-2. **Transformasi Data**:
-   - Nilai kosong diisi dengan rata-rata kolom.
-   - Kolom `date` dikonversi menjadi tipe datetime.
-   - Data duplikat dihapus.
-3. **Pencatatan Otomatis**:
-   - Data lineage dicatat menggunakan [OpenLineage](https://openlineage.io/).
-   - Metadata alur transformasi dikirim ke endpoint OpenLineage untuk dokumentasi otomatis.
+belum
 
 ### Lisensi
