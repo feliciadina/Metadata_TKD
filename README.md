@@ -50,7 +50,10 @@ Berikut adalah deskripsi kolom yang tersedia dalam dataset:
 6. **Handling Missing Values**:
    Tangani nilai yang hilang menggunakan rata-rata dari kolom yang terdapat Null.
 
-### Data Lineage
-belum
+### Implementasi Data Lineage
+1. **Install the required Python packages**
+   ```python
+   pip install pandas openlineage
+     
 
 ### Lisensi
